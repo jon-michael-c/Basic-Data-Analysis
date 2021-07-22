@@ -5,6 +5,7 @@ To demonstrate basic data analysis using a bash script, I took data from <a href
 
 I used `curl -o` to recieve the csv file. 
 Then `sort | awk ` to sort and display the data on the terminal.
+Removes the csv file when completed to save space.
 
 Expected Output:
 
