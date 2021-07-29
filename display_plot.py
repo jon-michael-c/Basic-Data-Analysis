@@ -6,8 +6,10 @@ import plotly.graph_objects as go
 df = pd.read_csv('./summer.csv')
 df.head()
 
+# Create Dataframe of Countries to Medals
 ag = pd.DataFrame(df.groupby(['Country']).size().sort_values(ascending=False).head(20)).reset_index()
 ag.columns = ['Country','Medal']
+# Create Plotly Table
 fig = go.Figure(go.Table(header=dict(values=ag.columns),
                  cells=dict(values=[
                      ag['Country'].to_list()
