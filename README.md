@@ -24,3 +24,4 @@ The results will also be stored in an html file if completely successfully.
 
 Expected output from the terminal:
 
+![Screenshot from 2021-07-29 00-21-12](https://user-images.githubusercontent.com/53241212/127431082-afe06d40-2664-455c-8ed4-f4eab49c9231.png)
