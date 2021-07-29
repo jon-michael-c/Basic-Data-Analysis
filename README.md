@@ -1,7 +1,7 @@
-# Basic Data Analysis
-Writing a script that finds the leading cause of death in NYC by year.
+# Basic Data Analysis: Most Summer Olympic Medals By Country
+<img src="https://user-images.githubusercontent.com/53241212/127422664-8b349ae2-d1bd-40da-8229-5da05b460d9a.png" width="100%">
 
-To demonstrate basic data analysis using a bash script, I took data from <a href="https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam">NYC OpenData</a> to examine.
+
 
 I used `curl -o` to recieve the csv file. 
 Then `sort | awk ` to sort and display the data on the terminal.
