@@ -6,6 +6,7 @@ default:
 	@echo "-----------------------------------------------"
 	@pip install numpy pandas plotly matplotlib
 	@echo "-----------------------------------------------"
-	@echo "Displaying..."
+	@echo "Top 20 Most Summer Olympic Medals By Country"
+	@echo "-----------------------------------------------"
 	@python display_plot.py
 	@rm summer.csv
