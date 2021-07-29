@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 df = pd.read_csv('./summer.csv')
 df.head()
 
-ag = pd.DataFrame(df.groupby(['Country']).size().sort_values(ascending=False).head(10)).reset_index()
+ag = pd.DataFrame(df.groupby(['Country']).size().sort_values(ascending=False).head(20)).reset_index()
 ag.columns = ['Country','Medal']
 fig = go.Figure(go.Table(header=dict(values=ag.columns),
                  cells=dict(values=[
@@ -15,6 +15,6 @@ fig = go.Figure(go.Table(header=dict(values=ag.columns),
                            )))
 
 fig.write_html("./data.html")
-fig.show()
+print(ag)
 
 
