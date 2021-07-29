@@ -13,5 +13,8 @@ fig = go.Figure(go.Table(header=dict(values=ag.columns),
                      ag['Country'].to_list()
                      , ag['Medal'].to_list()]
                            )))
+
+fig.write_html("./data.html")
 fig.show()
+
 
